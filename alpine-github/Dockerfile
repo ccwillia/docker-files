@@ -7,7 +7,7 @@ ENV PATH /opt/hub/bin:$PATH
 
 RUN export PATH=$PATH
 
-ENV GITHUB_HUB_VERSION 2.2.9
+ENV GITHUB_HUB_VERSION 2.3.0-pre10
 
 RUN set -ex; \
 	\
